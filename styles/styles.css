@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calculator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .calculator .form-row {
+    margin-bottom: 10px;
+  }
+
+  .table {
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-item {
+    text-align: center;
+  }
