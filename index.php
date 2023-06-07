@@ -1,9 +1,9 @@
 <?php
   require_once "config/database.php";
-  require_once "NBPApiClient.php";
-  require_once "CurrencyConverter.php";
-  require_once "CurrencyTableGenerator.php";
-  require_once "RecentConversionsGenerator.php";
+  require_once "src/NBPApiClient.php";
+  require_once "src/CurrencyConverter.php";
+  require_once "src/CurrencyTableGenerator.php";
+  require_once "src/RecentConversionsGenerator.php";
 
   try {
     $dbHost = $configDbHost;
